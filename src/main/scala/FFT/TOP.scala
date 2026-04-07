@@ -10,7 +10,7 @@ import chisel3.util._
   *
   */
 
-class TOP extends Module
+class FFTTop extends Module
   with HasDataConfig
   with HasElaborateConfig {
   val io = IO(new Bundle{
